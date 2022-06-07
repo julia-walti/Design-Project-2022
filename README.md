@@ -2,7 +2,7 @@
 ## An API for the short-term simulation of heating demand in a district heating network with machine learning models
 
 ### Explication projet 
-The goal of the project is to use machine learning model (here random forest regressor), to predict buildings heat demand. The model takes as input the building characteristics and gives the energy demand of the building as output. More precisely, it takes as input a GeoJSON file with the building characteristics, adds the heating demand predictions for 24 hours and returns the updated GeoJSON.
+The goal of the project is to use machine learning model (here random forest regressor), to predict buildings heat demand. The model takes as input a GeoJSON file with the building characteristics, adds the heating demand predictions for 24 hours and returns the updated GeoJSON.
 
 
 modele et input(details dans requirements)/output 
