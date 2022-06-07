@@ -13,7 +13,7 @@ site
 ### Requirements 
 
 ## Recreate deployment
-- In the deployment folder, you can find:
+In the deployment folder, you can find:
 - Deployment.py script that runs in the command prompt with the GeoJSON filepath as argument. It uploads an output file with the 24 hours prediction in the same entitie for one building.
 - DeploymentV2.py script that runs in the command prompt with the GeoJSON filepath as argument. It uploads an output file with 24 entities for each hour of prediction for one building.
 - App_server.py script that creates the local server where the model is deployed.
