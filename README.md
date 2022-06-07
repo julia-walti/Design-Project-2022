@@ -11,7 +11,8 @@ modele et input(details dans requirements)/output
 site
 
 ### Requirements 
-In order to create a prediction for the heating demand of one or multiple building, the script Deployment.py (or DeploymentV2.py) needs to be run in the command prompt with the GeoJSON containing the buildings characteristics and the weather data as argument. 
+First the script App_server must be run in the command prompt to create the local server where the model is deployed.
+In order to create a prediction for the heating demand of one or multiple building, the script Deployment.py (or DeploymentV2.py) needs to be run in the command prompt with the GeoJSON containing the buildings characteristics and the weather data as argument. The output file is download in the same folder.
 ## Recreate deployment
 In the deployment folder, you can find:
 - Deployment.py script that runs in the command prompt with the GeoJSON filepath as argument. It uploads an output file with the 24 hours prediction in the same entitie for one building.
@@ -20,6 +21,7 @@ In the deployment folder, you can find:
 - Input_demo.gjson, the input file containing 332 buildings in Monthey used to create the output.
 - demo_output.geojson, the output file when using the Deployment.py script.
 - demo_outputV2.geojson, the output file when using the DeploymentV2.py script.
+- construct_gson.py, the script that creates the input GSON file with the .cli weather file and the .GML CityGML2.0 file
 ### Requirements
 - argparse
 - numpy
