@@ -19,7 +19,7 @@ In the deployment folder, you can find:
 - Deployment.py script that runs in the command prompt with the GeoJSON filepath as argument. It uploads an output file with the 24 hours prediction in the same entitie for one building.
 - DeploymentV2.py script that runs in the command prompt with the GeoJSON filepath as argument. It uploads an output file with 24 entities for each hour of prediction for one building.
 - App_server.py script that creates the local server where the model is deployed.
-- construct_gson_day.py, the script that creates the input GSON file with the .cli weather file and the .GML CityGML2.0 file
+
 ### Requirements
 - argparse
 - numpy
@@ -35,7 +35,7 @@ In the the training folder, you can find:
 - reader.py Contains all functions to read the data, create and transform the dataset and construct the train and testing matrices
 - globals.py Contains the global variables that are used in multipl scripts
 - _init_.py Script to initialize and be able to use the global variables
-
+- construct_gson_day.py, the script that creates the input GSON file with the .cli weather file and the .GML CityGML2.0 file
 ### Requirements
 - numpy
 - sklearn
