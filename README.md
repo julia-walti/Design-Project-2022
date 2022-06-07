@@ -21,7 +21,7 @@ In the deployment folder, you can find:
 - Input_demo.gjson, the input file containing 332 buildings in Monthey used to create the output.
 - demo_output.geojson, the output file when using the Deployment.py script.
 - demo_outputV2.geojson, the output file when using the DeploymentV2.py script.
-- construct_gson.py, the script that creates the input GSON file with the .cli weather file and the .GML CityGML2.0 file
+- construct_gson_day.py, the script that creates the input GSON file with the .cli weather file and the .GML CityGML2.0 file
 ### Requirements
 - argparse
 - numpy
