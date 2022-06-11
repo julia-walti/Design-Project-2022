@@ -1,7 +1,6 @@
 # Design Project 2022
 ## An API for the short-term simulation of heating demand in a district heating network with machine learning models
 
-### Explication projet 
 The goal of the project is to use machine learning model (here random forest regressor), to predict buildings heat demand. The prediction is made using the building characteristics, and the weather data for the time where the prediction is asked.
 
 
@@ -11,12 +10,12 @@ First the script App_server must be run in the command prompt to create the loca
 In order to create a prediction for the heating demand of one or multiple building, the script Deployment.py (or DeploymentV2.py) needs to be run in the command prompt with the GeoJSON containing the buildings characteristics and the weather data as argument. The output file is download in the same folder.
 
 ### Requirements 
--requests
--json
--geojson
--pandas
--numpy
--argparse
+- requests
+- json
+- geojson
+- pandas
+- numpy
+- argparse
 
 
 ## Recreate deployment
